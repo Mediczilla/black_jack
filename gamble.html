@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gamble.css">
-    <title>Document</title>
+    <title>Winner winner chicken dinner</title>
 </head>
 <body>
-    <h1>Winner winner chicken dinner</h1> 
-    <p id="blackjack"></p>
+    <h1>BLACKJACK</h1>
+
+    <h2>Dealer <span id="dealer-sum"></span></h2>
+    <div id="dealer-hand">
+        <img id="hidden" src="Deck\BACK.png" alt="">
+    </div>
+
+    <h2>You <span id="your-sum"></span></h2>
+    <div id="your-hand"></div>
+
+    <button id="hit">Hit!</button>
+    <button id="stay">Stay</button>
+    <p id="results"></p>
+   
     <script src="gamble.js"></script>
 </body>
 </html>

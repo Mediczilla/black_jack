@@ -1,3 +1,49 @@
 h1{
-    color: blueviolet;
+    font-size: 3.25em;
+    color: rgb(174, 43, 226);
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+h2{
+    color: #b6ad13;
+    text-shadow: 2px 2px black;   
+}
+body{
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    height: 1000px;
+    background: linear-gradient(to bottom, #003300 0%, #009900 100%)
+}
+/*Buttons*/
+#stay{
+    background-color: rgb(30, 30, 30);
+    color: rgb(174, 43, 226);
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin: 0px;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#hit{
+    background-color: rgb(30, 30, 30);
+    color: rgb(174, 43, 226);
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin: 0px;
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+/*Buttons*/
+#dealer-hand img{
+    border-radius: 5px;
+    height: 175px;
+    width: 125px;
 }

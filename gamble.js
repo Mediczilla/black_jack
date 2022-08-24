@@ -1,1 +1,0 @@
-document.getElementById('blackjack').innerHTML = 'blackjack!'
